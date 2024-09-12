@@ -1,0 +1,14 @@
+{
+      "data": {
+        "key": "task",
+        "schema": {
+          "properties": {
+            "description": { "type": "string" },
+            "agent_id": { "type": "string" },
+            "status": { "type": "string", "enum": ["pending", "completed"] }
+          },
+          "required": ["description", "agent_id"]
+        }
+      }
+    }
+    
